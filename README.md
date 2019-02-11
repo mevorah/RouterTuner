@@ -5,7 +5,7 @@ The motivation for this project is to provide programmatic access to the Cisco E
 
 ## Why is this tricky?
 If you google around, you'll find many suggestions for how to interact with a router using python via web requests: https://stackoverflow.com/questions/47085477/python-script-to-communicate-with-router. You'll also find other solutions for authenticating -
-1. Using requests.Session()
+1. Using requests.Session() - https://forums.linuxmint.com/viewtopic.php?f=47&t=250565#p1349592
 2. Using http auth
 
 Unfortunately, the process of authenticating into the E1000 is more involved (ugghhh). The following steps happen during authentication into this particular router:
