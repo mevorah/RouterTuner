@@ -1,7 +1,7 @@
 # RouterTuner
 The motivation for this project is to provide programmatic access to the Cisco E1000 router and any other routers that offer a similar web configuration experience. As a home user, the web portal offers all of the settings I'd be interested in modifying. With that, I was looking for a simpler solution to changing settings than SSHing into the device. This package offers a python library that authenticates and makes changes to the router via web requests.
 
-**Quality Disclaimer:** This project is admittently hacky. It is the result of fooling around during one snowy Sunday afternoon in Seattle (what will be known as the winter apolocolypse of 2019). The code here is to help others who want to achieve something similar. Contributions are welcomed and encouraged!
+**Quality Disclaimer:** This project is admittently hacky. It is the result of fooling around during one snowy Seattle afternoon (what will be known as the winter apolocolypse of 2019). The code here is to help others who want to achieve something similar. Contributions are welcomed and encouraged!
 
 ## Why is this tricky?
 If you google around, you'll find many suggestions for how to interact with a router using python via web requests: https://stackoverflow.com/questions/47085477/python-script-to-communicate-with-router. You'll also find other solutions for authenticating -
